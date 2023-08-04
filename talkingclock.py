@@ -4,8 +4,9 @@ class Solution:
             #return type: string
             
             #TODO: Write code below to return a string with the solution to the prompt.
-            hour = int(timeOfDay[0] + timeOfDay[1])
             timeOfDay = input_time 
+            hour = int(timeOfDay[0] + timeOfDay[1])
+            
             amPm = ""
             answer = "It's "
             if hour >= 12: 
